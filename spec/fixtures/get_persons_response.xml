@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <GetPersonsDetailedResponse xmlns="http://24sevenOffice.com/webservices">
+      <GetPersonsDetailedResult>
+        <PersonItem>
+          <Comment xsi:nil="true" />
+          <ConsumerPersonNo xsi:nil="true" />
+          <Country>NO</Country>
+          <DateChanged>2015-09-23T10:41:00Z</DateChanged>
+          <Department xsi:nil="true" />
+          <EmailAddresses>
+            <EmailAddress>
+              <Description xsi:nil="true" />
+              <Type>Primary</Type>
+              <Value>tesla@lightning.op</Value>
+            </EmailAddress>
+          </EmailAddresses>
+          <FaxNumber>
+            <Description xsi:nil="true" />
+            <Type>Primary</Type>
+            <Value xsi:nil="true" />
+          </FaxNumber>
+          <FirstName>Nikola</FirstName>
+          <Id>1184511</Id>
+          <LastName>Tesla</LastName>
+          <Nickname xsi:nil="true" />
+          <PersonalStatus xsi:nil="true" />
+          <PhoneNumbers>
+            <PhoneNumber>
+              <Description xsi:nil="true" />
+              <Type>Mobile</Type>
+              <Value>66666666</Value>
+            </PhoneNumber>
+            <PhoneNumber>
+              <Description xsi:nil="true" />
+              <Type>Primary</Type>
+              <Value>22222222</Value>
+            </PhoneNumber>
+          </PhoneNumbers>
+          <PostAddress>
+            <City xsi:nil="true" />
+            <Country>NO</Country>
+            <County xsi:nil="true" />
+            <Description xsi:nil="true" />
+            <PostalArea xsi:nil="true" />
+            <PostalCode xsi:nil="true" />
+            <State xsi:nil="true" />
+            <Street xsi:nil="true" />
+            <Type>Post</Type>
+          </PostAddress>
+          <RelationData>
+            <RelationData>
+              <ContactId>1184511</ContactId>
+              <CustomerId>120025</CustomerId>
+              <Email>tesla@lightning.op</Email>
+              <Mobile>66666666</Mobile>
+              <Phone>22222222</Phone>
+              <Title xsi:nil="true" />
+            </RelationData>
+          </RelationData>
+          <Url xsi:nil="true" />
+          <WebPassword xsi:nil="true" />
+          <WebUserName xsi:nil="true" />
+          <Workplace xsi:nil="true" />
+          <WorkPosition xsi:nil="true" />
+        </PersonItem>
+        <PersonItem>
+          <Comment xsi:nil="true" />
+          <ConsumerPersonNo xsi:nil="true" />
+          <Country>NO</Country>
+          <DateChanged>2017-10-04T22:16:00Z</DateChanged>
+          <Department xsi:nil="true" />
+          <EmailAddresses>
+            <EmailAddress>
+              <Description xsi:nil="true" />
+              <Type>Primary</Type>
+              <Value>albert.einstein@quantum.mech</Value>
+            </EmailAddress>
+          </EmailAddresses>
+          <FaxNumber>
+            <Description xsi:nil="true" />
+            <Type>Primary</Type>
+            <Value xsi:nil="true" />
+          </FaxNumber>
+          <FirstName>Albert</FirstName>
+          <Id>1187891</Id>
+          <LastName>Einstein</LastName>
+          <Nickname xsi:nil="true" />
+          <PersonalStatus xsi:nil="true" />
+          <PhoneNumbers>
+            <PhoneNumber>
+              <Description xsi:nil="true" />
+              <Type>Mobile</Type>
+              <Value>33333333</Value>
+            </PhoneNumber>
+            <PhoneNumber>
+              <Description xsi:nil="true" />
+              <Type>Primary</Type>
+              <Value>22222222</Value>
+            </PhoneNumber>
+          </PhoneNumbers>
+          <PostAddress>
+            <City xsi:nil="true" />
+            <Country>NO</Country>
+            <County xsi:nil="true" />
+            <Description xsi:nil="true" />
+            <PostalArea>Gjersjøveien 54D</PostalArea>
+            <PostalCode>1415</PostalCode>
+            <State xsi:nil="true" />
+            <Street>Gjersjøveien 54D</Street>
+            <Type>Post</Type>
+          </PostAddress>
+          <RelationData xsi:nil="true" />
+          <Url xsi:nil="true" />
+          <WebPassword xsi:nil="true" />
+          <WebUserName xsi:nil="true" />
+          <Workplace xsi:nil="true" />
+          <WorkPosition xsi:nil="true" />
+        </PersonItem>
+      </GetPersonsDetailedResult>
+    </GetPersonsDetailedResponse>
+  </soap:Body>
+</soap:Envelope>
